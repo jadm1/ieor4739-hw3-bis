@@ -127,7 +127,7 @@ int main(int argc, char *argv[])
 	/** allocate the power bags **/
 	for (j = 0; j < numworkers; j++) {
 		apbag = papbag[j];
-		if ((retcode = PWRAllocBag(n, r, covmatrix, &apbag->powerbag, scale, tolerance)))
+		if ((retcode = PWRAllocBag(n, r, covmatrix, &apbag->powerbag, tolerance)))
 			goto BACK;
 	}
 
