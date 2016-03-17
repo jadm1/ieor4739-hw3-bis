@@ -1,0 +1,92 @@
+will use scale 10 and quantity 8: 4 workers, 2 eigen values, tolerance: 1e-06
+n = 947
+read and loaded data for n = 947 with code 0
+Launching thread for worker 0
+Launching thread for worker 1
+Launching thread for worker 2
+Launching thread for worker 3
+ID 1 starts
+*****master:  worker 0 will run job 0
+*****master:  worker 1 will run job 1
+*****master:  worker 2 will run job 2
+*****master:  worker 3 will run job 3
+ID 0 starts
+ID 3 starts
+ID 2 starts
+scale for random perturbation: 10
+scale for random perturbation: 10
+scale for random perturbation: 10
+scale for random perturbation: 10
+Job 1 at iteration 0, 1-th EigenValue: 1376.39,   L1(error) = 4.831234991e-01
+Job 0 at iteration 0, 1-th EigenValue: 1362.64,   L1(error) = 4.750450482e-01
+Job 2 at iteration 0, 1-th EigenValue: 1374.36,   L1(error) = 4.887533104e-01
+Job 3 at iteration 0, 1-th EigenValue: 1302.74,   L1(error) = 4.608239501e-01
+ Job 1 converged with tol 1e-06! at iter 2. 1-th EigenValue: 100.056
+ Job 0 converged with tol 1e-06! at iter 2. 1-th EigenValue: 100.056
+ Job 2 converged with tol 1e-06! at iter 2. 1-th EigenValue: 100.055
+ Job 3 converged with tol 1e-06! at iter 2. 1-th EigenValue: 100.055
+Job 1 at iteration 0, 2-th EigenValue: 0.174259,   L1(error) = 2.988818818e-01
+Job 0 at iteration 0, 2-th EigenValue: 0.150617,   L1(error) = 2.967307774e-01
+Job 2 at iteration 0, 2-th EigenValue: 0.185081,   L1(error) = 3.017119811e-01
+Job 3 at iteration 0, 2-th EigenValue: 0.167185,   L1(error) = 2.983578986e-01
+ Job 2 converged with tol 1e-06! at iter 16. 2-th EigenValue: 0.0326355
+ Job 0 converged with tol 1e-06! at iter 17. 2-th EigenValue: 0.0319282
+ Job 1 converged with tol 1e-06! at iter 18. 2-th EigenValue: 0.0316251
+master:  worker 0 is done with job 0
+Job 0: 1-th EigenValue estimate: 100.056
+Job 0: 2-th EigenValue estimate: 0.0319282
+master:  worker 0 will run job 4
+ Job 3 converged with tol 1e-06! at iter 18. 2-th EigenValue: 0.0327309
+scale for random perturbation: 10
+master:  worker 1 is done with job 1
+Job 1: 1-th EigenValue estimate: 100.056
+Job 1: 2-th EigenValue estimate: 0.0316251
+master:  worker 1 will run job 5
+scale for random perturbation: 10
+Job 4 at iteration 0, 1-th EigenValue: 1330.24,   L1(error) = 4.742381069e-01
+master:  worker 2 is done with job 2
+Job 2: 1-th EigenValue estimate: 100.055
+Job 2: 2-th EigenValue estimate: 0.0326355
+master:  worker 2 will run job 6
+scale for random perturbation: 10
+Job 5 at iteration 0, 1-th EigenValue: 1353.14,   L1(error) = 4.845153962e-01
+ Job 4 converged with tol 1e-06! at iter 2. 1-th EigenValue: 100.054
+Job 4 at iteration 0, 2-th EigenValue: 0.189745,   L1(error) = 3.045498068e-01
+master:  worker 3 is done with job 3
+Job 3: 1-th EigenValue estimate: 100.055
+Job 3: 2-th EigenValue estimate: 0.0327309
+master:  worker 3 will run job 7
+Job 6 at iteration 0, 1-th EigenValue: 1315.94,   L1(error) = 4.704256076e-01
+scale for random perturbation: 10
+ Job 5 converged with tol 1e-06! at iter 2. 1-th EigenValue: 100.056
+Job 7 at iteration 0, 1-th EigenValue: 1359.28,   L1(error) = 4.787279756e-01
+Job 5 at iteration 0, 2-th EigenValue: 0.181941,   L1(error) = 2.986520199e-01
+ Job 6 converged with tol 1e-06! at iter 2. 1-th EigenValue: 100.055
+Job 6 at iteration 0, 2-th EigenValue: 0.176112,   L1(error) = 3.083187731e-01
+ Job 7 converged with tol 1e-06! at iter 2. 1-th EigenValue: 100.058
+Job 7 at iteration 0, 2-th EigenValue: 0.154568,   L1(error) = 3.005645482e-01
+ Job 4 converged with tol 1e-06! at iter 16. 2-th EigenValue: 0.0326725
+master:  worker 0 is done with job 4
+Job 4: 1-th EigenValue estimate: 100.054
+Job 4: 2-th EigenValue estimate: 0.0326725
+ ID 0 quitting
+ Job 7 converged with tol 1e-06! at iter 19. 2-th EigenValue: 0.0300621
+master:  worker 3 is done with job 7
+Job 7: 1-th EigenValue estimate: 100.058
+Job 7: 2-th EigenValue estimate: 0.0300621
+ ID 3 quitting
+ Job 6 converged with tol 1e-06! at iter 17. 2-th EigenValue: 0.0327166
+ Job 5 converged with tol 1e-06! at iter 20. 2-th EigenValue: 0.0309067
+master:  worker 1 is done with job 5
+Job 5: 1-th EigenValue estimate: 100.056
+Job 5: 2-th EigenValue estimate: 0.0309067
+ ID 1 quitting
+master:  worker 2 is done with job 6
+Job 6: 1-th EigenValue estimate: 100.055
+Job 6: 2-th EigenValue estimate: 0.0327166
+ ID 2 quitting
+master:  done with loop
+master: joined with thread 0
+master: joined with thread 1
+master: joined with thread 2
+master: joined with thread 3
